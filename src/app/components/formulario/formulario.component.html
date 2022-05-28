@@ -1,0 +1,11 @@
+<p>formulario works!</p>
+<form [formGroup]="form">
+    <label>Nombre</label>
+    <input type="text" formControlName="name">
+    <label>Edad</label>
+    <input type="text" formControlName="age">
+    <label>Correo</label>
+    <input type="text" formControlName="email">
+
+    <button type="submit" (click)="crearUsuario()">Submit</button>
+</form>
